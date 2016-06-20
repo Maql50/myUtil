@@ -25,7 +25,6 @@ public class FileUtil {
 	public static void main(String[] args) throws IOException {
 		new FileUtil().readTextByLines(new File("demo/raf.dat"));
 	}
-	
 
 	/**
 	 * 将内容保存至文件
